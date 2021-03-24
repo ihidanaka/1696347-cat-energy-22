@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Max Kiselyov](https://up.htmlacademy.ru/adaptive/22/user/1696347).
-* Наставник: `Неизвестно`.
+* Наставник: [Ольга Вадясова](https://htmlacademy.ru/profile/ad0v0).
 
 ---
 
