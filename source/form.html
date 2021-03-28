@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Energy | Подбор программы</title>
+</head>
+
+<body>
+
+  <header class="form-header">
+    <div class="wrapper">
+      <h1 class="form-header__heading">Подбор программы</h1>
+      <p class="form-header__heading-description">Заполните анкету, и мы подберем программу питания для вашего кота</p>
+    </div>
+  </header>
+
+  <main class="form-main">
+    <div class="wrapper">
+      <form action="post" class="site-form">
+        <fieldset class="form-main__basic-info">
+          <h2 class="visually-hidden">Основная информация о коте</h2>
+          <label for="cat-name">ИМЯ:*</label>
+          <input id="cat-name" name="cat-name-input" type="text" placeholder="Барсик" required>
+
+          <label for="cat-weight">Вес (кг):*</label>
+          <input id="cat-weight" name="cat-weight-input" type="text" placeholder="7" required>
+
+          <label for="cat-age">Возраст (лет):</label>
+          <input id="cat-age" name="cat-age-input" type="text" placeholder="7">
+        </fieldset>
+
+        <fieldset class="form-main__nutrition-program">
+          <h2 class="visually-hidden">Выбор программы питания</h2>
+          <input type="radio" name="nutrition-program-radio" id="slim-program-radio">
+          <label for="slim-program-radio">Похудение</label>
+
+          <input type="radio" name="nutrition-program-radio" id="weight-gain-program-radio">
+          <label for="weight-gain-program-radio">Набор массы</label>
+
+          <input type="radio" name="nutrition-program-radio" id="dont-know-radio">
+          <label for="dont-know-radio">Не знаю (Нужен ваш совет)</label>
+        </fieldset>
+
+        <fieldset class="form-main__contacts">
+          <h2 class="form-main__contacts-title">Контактные данные (владельца кота)</h2>
+          <label for="email">E-mail:*</label>
+          <input type="text" name="email" id="email" placeholder="kuklachev@gmail.com" required>
+
+          <label for="phone">Телефон:*</label>
+          <input type="tel" name="phone" id="phone" placeholder="8 (960) 900-60-90" required>
+        </fieldset>
+
+        <fieldset class="form-main__comment">
+          <h2 class="form-main__comment-title">Комментарий</h2>
+          <textarea name="comment-text" id="comment" cols="30" rows="10">Расскажите обо всех повадках кота</textarea>
+        </fieldset>
+
+        <fieldset class="form-main__additional">
+          <h2 class="form-main__additional-title">Дополнительно</h2>
+          <input class="form-main__checkbox form-main__checkbox--active" type="checkbox" name="sweetener" id="sweetener-checkbox">
+          <label for="sweetener-checkbox">Сахарозаменитель</label>
+
+          <input class="form-main__checkbox form-main__checkbox--off" type="checkbox" name="drink-water" id="drink-water-checkbox">
+          <label for="drink-water-checkbox">Питьевая вода</label>
+
+          <input class="form-main__checkbox form-main__checkbox--off" type="checkbox" name="milk" id="milk-checkbox">
+          <label for="milk-checkbox">Молоко</label>
+
+          <input class="form-main__checkbox form-main__checkbox--off" type="checkbox" name="vitamins" id="vitamins-checkbox">
+          <label for="vitamins-checkbox">Витамины</label>
+        </fieldset>
+        <button class="form-main__submit" type="submit">Отправить заявку</button>
+        <p class="form-main__required-input-attention-title">* — Обязательные поля</p>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>
