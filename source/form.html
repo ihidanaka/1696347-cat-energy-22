@@ -10,10 +10,10 @@
 
 <body>
 
-  <header class="form-header">
+  <header class="intro">
     <div class="wrapper">
-      <h1 class="form-header__heading">Подбор программы</h1>
-      <p class="form-header__heading-description">Заполните анкету, и мы подберем программу питания для вашего кота</p>
+      <h1 class="intro__heading">Подбор программы</h1>
+      <p class="intro__description">Заполните анкету, и мы подберем программу питания для вашего кота</p>
     </div>
   </header>
 
@@ -22,7 +22,7 @@
       <form action="post" class="site-form">
         <fieldset class="form-main__basic-info">
           <h2 class="visually-hidden">Основная информация о коте</h2>
-          <label for="cat-name">ИМЯ:*</label>
+          <label for="cat-name">Имя:*</label>
           <input id="cat-name" name="cat-name-input" type="text" placeholder="Барсик" required>
 
           <label for="cat-weight">Вес (кг):*</label>
@@ -47,7 +47,7 @@
         <fieldset class="form-main__contacts">
           <h2 class="form-main__contacts-title">Контактные данные (владельца кота)</h2>
           <label for="email">E-mail:*</label>
-          <input type="text" name="email" id="email" placeholder="kuklachev@gmail.com" required>
+          <input type="email" name="email" id="email" placeholder="kuklachev@gmail.com" required>
 
           <label for="phone">Телефон:*</label>
           <input type="tel" name="phone" id="phone" placeholder="8 (960) 900-60-90" required>
