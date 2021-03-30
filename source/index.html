@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>HTML Academy: Кэт энерджи</title>
+  <title>Cat Energy | Главная</title>
 </head>
 
 <body class="page__body">
@@ -23,38 +23,39 @@
             <a>Главная</a>
           </li>
           <li class="site-list__item">
-            <a href="catalog.html">Каталог продукции</a>
+            <a aria-label="Переход в Каталог" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="site-list__item">
-            <a href="form.html">Подбор программы</a>
+            <a aria-label="Переход на страницу подбора программы" href="form.html">Подбор программы</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
 
-
   <main class="page-main">
     <div class="wrapper">
       <h1 class="page-main__heading">Функциональное питание для котов</h1>
       <p class="page-main__legend">Занялся собой? Займись котом!</p>
     </div>
-    <a class="page-main__button selection-button" href="form.html">Подобрать программу</a>
+    <a aria-label="Подобрать программу питания" class="page-main__button selection-button" href="form.html">Подобрать
+      программу</a>
     <section class="suggestions">
       <div class="wrapper">
         <h2 class="visually-hidden">Наши предложения</h2>
-        <ul class="suggestions__list site-suggestions-list">
+        <ul class="suggestions__list suggestions-list">
           <li class="suggestions-list__item suggestions-list__item--slim">
             <h3 class="suggestions-list__title">Похудение</h3>
             <p class="suggestions-list__description">Ваш кот весит больше собаки и почти утратил способность лазить по
               деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
-            <a class="suggestions-list__to-catalog-button">Каталог Slim</a>
+            <a href="" aria-label="Переход на программу Slim" class="suggestions-list__to-catalog-button">Каталог
+              Slim</a>
           </li>
           <li class="suggestions-list__item suggestions-list__item--pro">
             <h3 class="suggestions-list__title">Набор массы</h3>
             <p class="suggestions-list__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat
               Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
-            <a class="suggestions-list__to-catalog-button">Каталог Pro</a>
+            <a href="" aria-label="Переход на программу Pro" class="suggestions-list__to-catalog-button">Каталог Pro</a>
           </li>
         </ul>
       </div>
@@ -106,7 +107,6 @@
           </div>
         </dl>
         <p class="live-example__legend">Затраты на питание: 15 000 РУБ.</p>
-
         <div class="live-example__slider site-slider">
           <button class="live-example__before" type="button">Было</button>
           <div class="slider"></div>
@@ -114,6 +114,9 @@
         </div>
       </div>
     </section>
+  </main>
+
+  <footer class="page-footer">
 
     <section class="shop-location">
       <div class="wrapper">
@@ -129,12 +132,8 @@
         </div>
       </div>
     </section>
-  </main>
-
-  <footer class="page-footer">
 
     <section class="page-footer__logotype">
-
       <div class="wrapper">
         <h2 class="visually-hidden">Логотип сайта в футере</h2>
         <img src="img/footer-logo-2.svg" width="128" height="24" alt="Cat Energy логотип">
@@ -146,13 +145,16 @@
         <h2 class="visually-hidden">Ссылки на социальные сети</h2>
         <ul class="page-footer__list">
           <li class="page-footer__item">
-            <img src="img/icon_vkontakte.svg" width="23" height="16" alt="Переход на страницу магазина в ВКонтакте">
+            <a href="#" aria-label="Переход на страницу магазина в ВКонтакте"><img src="img/icon_vkontakte.svg"
+                width="23" height="16" alt="Логотип ВКонтакте"></a>
           </li>
           <li class="page-footer__item">
-            <img src="img/icon_instagram.svg" width="16" height="16" alt="Переход на страницу магазина в Инстаграм">
+            <a href="#" aria-label="Переход на страницу магазина в Инстаграм"><img src="img/icon_instagram.svg"
+                width="16" height="16" alt="Логотип Инстаграм"></a>
           </li>
           <li class="page-footer__item">
-            <img src="img/icon_facebook.svg" width="22" height="22" alt="Переход на страницу магазина в Фэйсбук">
+            <a href="#" aria-label="Переход на страницу магазина в Фэйсбук"><img src="img/icon_facebook.svg" width="22"
+                height="22" alt="Логотип Фэйсбук"></a>
           </li>
         </ul>
       </div>
@@ -160,10 +162,14 @@
 
     <section class="page-footer__copyright">
       <div class="wrapper">
-        <h2 class="visually-hidden">Логотип сайта в футере</h2>
-        <a href="https://htmlacademy.ru/intensive/adaptive" class="page-footer__link"></a>
-        <img class="page-footer__css-html-logo" src="img/htmlcsslogo.svg" width="27" height="34"
-          alt="Переход на лендинг интенсива «Профессиональный HTML и CSS, уровень 2»">
+        <h2 class="visually-hidden">Копирайт в футере</h2>
+        <a href="https://htmlacademy.ru/intensive/adaptive" class="page-footer__link"
+          aria-label="Переход на лендинг интенсива «Профессиональный HTML и CSS, уровень 2»">HTML Academy</a>
+        <a href="https://htmlacademy.ru/intensive/adaptive" class="page-footer__link-logo"
+          aria-label="Переход на лендинг интенсива «Профессиональный HTML и CSS, уровень 2»">
+          <img class="page-footer__css-html-logo" src="img/htmlcsslogo.svg" width="27" height="34"
+            alt="Логотип HTML Academy">
+        </a>
       </div>
     </section>
   </footer>
