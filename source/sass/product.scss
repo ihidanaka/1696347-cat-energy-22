@@ -1,0 +1,48 @@
+.product {
+  display: flex;
+  width: 282px;
+  margin-bottom: 11px;
+}
+
+.product__info {
+  width: 142px;
+  list-style: none;
+  padding: 0;
+  color: $special_dark-grey;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+.product__image-wrapper {
+  width: 140px;
+  height: 112px;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 12px;
+}
+
+.product__name-link {
+  color: $special_dark-grey-2;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.product__weight-value,
+.product__taste-value,
+.product__cost-value {
+  float: right;
+}
+
+.product__name {
+  margin-bottom: 13px;
+}
+
+.product__weight-value {
+  margin-right: 3px;
+}

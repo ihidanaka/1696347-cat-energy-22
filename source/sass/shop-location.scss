@@ -1,0 +1,31 @@
+.shop-location__address-wrapper {
+  display: flex;
+  margin-top: 12px;
+  margin-bottom: 10px;
+
+}
+
+.shop-location__title {
+  color: $special_black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 28px;
+}
+
+.shop-location__address {
+  color: $special_dark-grey;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 19px;
+  margin-top: 28px;
+}
+
+.shop-location__map {
+  width: 320px;
+  margin: 0 auto;
+}

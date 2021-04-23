@@ -1,1 +1,60 @@
 // Начните писать стили здесь
+@import "fonts.scss";
+@import "variables.scss";
+@import "page-header.scss";
+@import "main-nav.scss";
+@import "page-main.scss";
+@import "selection-button.scss";
+@import "suggestions-list.scss";
+@import "how-it-works.scss";
+@import "live-example.scss";
+@import "shop-location.scss";
+@import "page-footer.scss";
+@import "intro.scss";
+@import "select-program-form.scss";
+@import "basic-info.scss";
+@import "nutrition-program.scss";
+@import "form-contacts.scss";
+@import "form-additional.scss";
+@import "site-slider.scss";
+@import "catalog.scss";
+@import "product.scss";
+@import "catalog-additional.scss";
+@import "show-all.scss";
+
+a {
+  text-decoration: none;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 87.5vw;
+}
+
+.page__body {
+  margin: 0;
+}
+
+.center-wrapper {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

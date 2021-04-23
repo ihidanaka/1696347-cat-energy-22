@@ -1,0 +1,33 @@
+.page-header {
+  color: $basic_black;
+}
+
+.page-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+  margin-top: 7px;
+  border-bottom: 1px solid $border_light;
+}
+
+.page-header__logo {
+  width: 33px;
+  height: 38px;
+  margin-left: 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 60px;
+    height: 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 70px;
+    height: 59px;
+  }
+}
+
+.page-header__shop-name {
+  margin-top: 9px;
+  margin-left: -11px;
+}

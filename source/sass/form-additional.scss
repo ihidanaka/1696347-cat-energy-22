@@ -1,0 +1,61 @@
+.form-additional__title {
+  color: $basic_black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  position: relative;
+  margin-bottom: 39px;
+}
+
+.form-additional__title::before {
+  content: "";
+  position: absolute;
+  width: 136px;
+  height: 2px;
+  background-color: $basic_green;
+  top: 15px;
+  left: 164px;
+}
+
+.form-additional__list {
+  list-style: none;
+  padding: 0;
+}
+
+.form-additional__item {
+  margin-bottom: 23px;
+  position: relative;
+}
+
+.form-additional__label {
+  color: $basic-black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-left: 46px;
+}
+
+.form-additional__checkbox + label::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+
+  position: absolute;
+  top: -6px;
+  left: 0;
+  background-image: url("../img/checkbox.svg");
+}
+
+.form-additional__checkbox:checked + label::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+
+  position: absolute;
+  top: -6px;
+  left: 0;
+  background-image: url("../img/checkbox-active.svg");
+}

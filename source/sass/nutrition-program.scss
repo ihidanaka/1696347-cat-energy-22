@@ -1,0 +1,45 @@
+.nutrition-program__list {
+  list-style: none;
+  padding: 0;
+}
+
+.nutrition-program__item {
+  margin-bottom: 23px;
+  position: relative;
+}
+
+.nutrition-program__list :last-child {
+  margin-bottom: 22px;
+}
+
+.nutrition-program__label {
+  color: $special_dark-grey-2;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-left: 46px;
+}
+
+.nutrition-program__radio + label::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+
+  position: absolute;
+  top: -6px;
+  left: 0;
+  background-image: url("../img/radiobutton-disabled.svg");
+}
+
+.nutrition-program__radio:checked + label::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+
+  position: absolute;
+  top: -6px;
+  left: 0;
+  background-image: url("../img/radiobutton-active.svg");
+}

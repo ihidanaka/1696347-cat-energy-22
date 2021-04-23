@@ -1,0 +1,113 @@
+.live-example {
+  padding-top: 27px;
+  padding-bottom: 37px;
+  background-color: $basic_grey_special;
+}
+
+.live-example__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.live-example__item {
+  position: relative;
+  margin-top: 8px;
+}
+
+.live-example__heading {
+  color: $basic_black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0;
+}
+
+.live-example__description {
+  color: $special_dark-grey;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 33px;
+}
+
+.live-example__title {
+  width: 122px;
+  color: $basic_black;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  border: 1px solid $special_grey;
+  border-radius: 3px;
+  padding-top: 14px;
+  padding-bottom: 17px;
+}
+
+.live-example__description-label {
+  color: $special_dark-grey;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.live-example__description-label--time {
+  position: absolute;
+  width: 87px;
+  top: 48px;
+  left: -22px;
+  background-color: $basic_grey_special;
+}
+
+.live-example__description-label--weight {
+  position: absolute;
+  width: 87px;
+  top: 48px;
+  left: -23px;
+  background-color: $basic_grey_special;
+}
+
+.live-example__legend {
+  text-align: center;
+  color: $basic_black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 34px;
+}
+
+.live-example__before,
+.live-example__after {
+  border: none;
+  color: $basic_black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: $basic_grey_special;
+  padding: 0;
+}
+
+.live-example__cat-img {
+  margin-top: 26px;
+  margin-bottom: 28px;
+}
+
+.live-example__slider {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+
+
+}

@@ -1,0 +1,52 @@
+.show-all {
+  width: 100vw;
+  padding-top: 24px;
+  border-top: 1px solid $border_grey_special;
+}
+
+.show-all__button {
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $special_dark-grey;
+  padding: 10px 94px;
+  background-color: $basic_grey;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 9px;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.show-all__plus-button {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.show-all__title {
+  color: $special_black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 23px;
+  margin-bottom: 8px;
+  margin-left: 4px;
+}
+
+.show-all__subtitle {
+  color: $special_dark-grey;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 0;
+}

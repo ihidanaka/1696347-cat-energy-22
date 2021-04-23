@@ -1,0 +1,143 @@
+.select-program-form__basic-info {
+  padding-bottom: 8px;
+  border-bottom: 1px solid $border_grey;
+  width: 100vw;
+  margin-bottom: 12px;
+}
+
+.select-program-form__nutrition-program {
+  border-bottom: 1px solid $border_grey;
+  width: 100vw;
+  margin-bottom: 5px;
+}
+
+.select-program-form__contacts {
+  width: 100vw;
+  margin-bottom: 8px;
+}
+
+.select-program-form__comment {
+  width: 100vw;
+  margin-bottom: 2px;
+  position: relative;
+}
+
+.select-program-form__additional {
+  width: 100vw;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.select-program-form__comment-area {
+  text-transform: uppercase;
+  color: $special_dark-grey;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  vertical-align: middle;
+  width: 264px;
+  height: 140px;
+  border: 1px solid $border_special-light;
+  padding: 0;
+  padding-left: 14px;
+  padding-top: 8px;
+  margin-top: 19px;
+  resize: none;
+}
+
+.select-program-form__submit {
+  width: 280px;
+  color: $basic_light;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  background-color: $basic_green;
+  margin-bottom: 7px;
+}
+
+.select-program-form__comment-title {
+  color: $basic_black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  margin-top: 0;
+}
+
+.select-program-form__comment-title::before {
+  content: "";
+  position: absolute;
+  width: 158px;
+  height: 2px;
+  background-color: $basic_green;
+  top: 15px;
+  left: 162px;
+}
+
+.select-program-form__label {
+  vertical-align: middle;
+  color: $special_dark-grey-2;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.select-program-form__input {
+  text-transform: uppercase;
+  color: $special_dark-grey;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  vertical-align: middle;
+  height: 43px;
+  border: 1px solid $border_special-light;
+  padding: 0;
+  padding-left: 14px;
+  margin-left: auto;
+  margin-right: 0;
+  justify-self: end;
+}
+
+.select-program-form__input::placeholder {
+  text-transform: uppercase;
+  color: $special_dark-grey;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.select-program-form__input-cat--name {
+  width: 213px;
+  margin-bottom: 3px;
+}
+
+.select-program-form__input-cat--weight {
+  width: 188px;
+  margin-bottom: -1px;
+}
+
+.select-program-form__input-cat--age {
+  width: 156px;
+}
+
+.select-program-form__required-input-attention-title {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: $basic-black;
+  text-align: center;
+  margin-bottom: 32px;
+}
+

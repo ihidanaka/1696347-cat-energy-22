@@ -1,0 +1,90 @@
+.form-contacts__contacts-title::before {
+  content: "";
+  position: absolute;
+  width: 99px;
+  height: 2px;
+  background-color: $basic_green;
+  top: 17px;
+  left: 201px;
+}
+
+.form-contacts__contacts-title {
+  color: $basic_black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 36px;
+  position: relative;
+}
+
+.form-contacts__list {
+  list-style: none;
+  padding: 0;
+}
+
+.form-contacts__item {
+  color: $special_dark-grey;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+.form-contacts__input {
+  text-transform: uppercase;
+  color: $special_dark-grey;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  vertical-align: middle;
+  height: 43px;
+  border: 1px solid $border_special-light;
+  padding: 0;
+  padding-left: 14px;
+  margin-left: auto;
+  margin-right: 0;
+  justify-self: end;
+  position: relative;
+}
+
+.form-contacts__input::placeholder {
+  text-transform: uppercase;
+  color: $special_dark-grey;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.form-contacts__input--email {
+  width: 203px;
+}
+
+.form-contacts__input--tel {
+  width: 188px;
+}
+
+.form-contacts__input--email-icon {
+  position: absolute;
+  width: 18px;
+  height: 13px;
+  top: 17px;
+  left: 246px;
+}
+
+.form-contacts__input--tel-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 13px;
+  left: 247px;
+}

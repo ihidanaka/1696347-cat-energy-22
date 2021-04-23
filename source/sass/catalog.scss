@@ -1,0 +1,24 @@
+.catalog__list {
+  list-style: none;
+  padding: 0;
+}
+
+.catalog__item {
+  border-top: 1px solid $border_grey_special;
+  padding-top: 19px;
+  margin-top: 25px;
+  margin-bottom: 33px;
+}
+
+.catalog__item-order {
+
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: $basic_light;
+  padding: 8px 110px;
+  background-color: $basic_green;
+  text-transform: uppercase;
+}
